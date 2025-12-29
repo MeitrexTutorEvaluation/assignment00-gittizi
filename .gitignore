@@ -7,9 +7,14 @@
 # Maven target directory
 /target/
 
+# Gradle
+.gradle/
+build/
+
 # Build artifacts
 *.class
 *.jar
+!gradle/wrapper/gradle-wrapper.jar
 *.war
 *.ear
 *.zip
