@@ -7,6 +7,10 @@
 # Maven target directory
 /target/
 
+# Gradle
+.gradle/
+build/
+
 # Build artifacts
 *.class
 *.jar
